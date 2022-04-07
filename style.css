@@ -1,0 +1,181 @@
+:root{
+    --project-color:rgba(33, 150, 243, 1);
+    --white-color:rgb(255, 255, 255);
+    --text-color:rgba(33, 33, 33, 1);
+    --text-second-color:rgba(117, 117, 117, 1);
+}
+.list{
+    list-style: none;
+}
+container{
+    width: 1600px;
+    font-family: 'Roboto';
+    /* Header */
+}
+.header-menu {
+    display: flex;
+        height:80px;
+        align-items: baseline;
+        padding-left: 215px;
+        padding-right: 215px;
+    
+}
+.navig
+{
+    display: flex;
+
+}
+.navig .item:not(:last-child){
+    margin-right: 50px;
+}
+.item a{
+    color: var(--text-color);
+    font-size:14px;
+}
+.item a:hover,
+.item a :focus{
+    color: var(--project-color);
+}
+.cont {
+   margin-left: auto; 
+}
+.cont a{
+    color: var(--text-second-color);
+    font-size: 14px;
+}
+.cont a:hover,
+.cont a:focus{
+    color: var(--project-color);
+}
+/* Hero */
+.hero{
+height: 600px;
+
+background-color: rgba(47, 48, 58, 1);
+color: var(--white-color);
+
+display: flex;
+flex-direction:column;
+justify-content:center;
+align-items: center;
+
+
+
+
+}
+.hero h1{
+    font-size: 44px;
+}
+.primary-btn{
+    width: 200px;
+    height: 50px;
+    color: var(--white-color);
+    background-color:var(--project-color);
+    font-size: 16px;
+    margin-bottom:  94px; ;
+    
+}
+/* feature */
+.feature
+{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.feature li{
+    font-size: 14px;
+    color: var(--text-second-color);
+
+}
+.feature li:not(:last-child)
+{
+    margin-right: 30px;
+}
+/* our work */
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+.work-img{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 215px;
+    
+    
+    
+}
+/* our team */
+.our-team img{
+    width:270px;
+    height:260px ;
+    
+}
+.our-team{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 215px;
+
+}
+.workers{
+    width: 270px;
+    height: 368px;
+       
+}
+/* footer */
+.footer{
+    height:252px ;
+    background-color: rgba(47, 48, 58, 1);
+    color: var(--white-color);
+    padding-left: 215px;
+    
+}
+.footer-contacts{
+    color:var(--text-second-color)
+
+}
+    /* PORTFOLIO */
+    /* Filter */
+    .filter-list{
+        display: flex;
+        justify-content: center;
+        
+        
+       
+        
+        
+    }
+    
+    .filter-btn{
+        height:38px;
+        background-color:rgba(245, 244, 250, 1);
+        margin-right: 8px;
+        font-size: 16px;
+        
+    }
+    .filter-btn:hover,
+    .filter-btn:focus{
+        color: var(--white-color);
+        background-color: var(--project-color);
+
+    }
+    /* galery */
+    .galSize{
+        display: flex;
+        justify-content: center;
+    }
+    .galery{
+        width: 1170px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    
+
+    
+
+
